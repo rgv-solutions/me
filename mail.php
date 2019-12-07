@@ -92,11 +92,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		// Set headers
 		$headers  = "MIME-Version: 1.0\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8\r\n";
-		$headers .= "From: \"witsec.nl\" <" . $from . ">\r\n";
+		$headers .= "From: \"rgv-solutions.github.io/me\" <" . $from . ">\r\n";
 		$headers .= "Reply-To: " . $from;
 
 		// Send the mail
-		if ( mail("mark@witsec.nl", $subject, $body, $headers) ) {
+		if ( mail("rg630507@gmail.com", $subject, $body, $headers) ) {
 			json(true);
 		}
 	}
