@@ -38,7 +38,7 @@
     "robotsSwitcher": false,
     "siteUrl": false,
     "sitemapSwitcherAuto": true,
-    "favicon": "@PROJECT_PATH@/assets/images/logo-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo_1.png",
     "noImageResize": true,
     "cookiesAlert": {
       "customDialogSelector": false,
@@ -104,7 +104,9 @@
     "cssOptimize": true,
     "lazyLoad": false,
     "lazyType": "nothing",
-    "pwa-switcher": false
+    "pwa-switcher": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/ROBERTOGarciaVallejo/Documents/dfb943d826e56c59bebd675cc4ffedad748b71f4"
   },
   "pages": {
     "index.html": {
